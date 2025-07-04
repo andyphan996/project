@@ -68,3 +68,34 @@ html {
     padding: 8px 8px;
 }
 
+/* Footer CSS */
+.footer {
+  background-color: #262626;    /* Nền đen đậm */
+  color: #fff;               /* Chữ trắng */
+  padding: 20px 0;           /* Khoảng cách trên dưới */
+  text-align: center;        /* Căn giữa nội dung */
+}
+
+.footer .container {
+  max-width: 1200px;         /* Giới hạn chiều rộng tối đa */
+  margin: 0 auto;            /* Căn giữa theo chiều ngang */
+}
+
+.footer-links {
+  list-style: none;          /* Xóa ký hiệu đầu dòng (dấu chấm) */
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;             /* Dàn đều các mục ra hàng ngang */
+  justify-content: center;
+  gap: 15px;                 /* Khoảng cách giữa các mục */
+}
+
+.footer-links li a {
+  color: #aaa;               /* Màu chữ xám nhạt */
+  text-decoration: none;    /* Xóa gạch chân */
+  transition: color 0.3s;   /* Hiệu ứng khi di chuột */
+}
+
+.footer-links li a:hover {
+  color: #fff;               /* Khi rê chuột: đổi màu thành trắng */
+}
